@@ -24,6 +24,6 @@ This has been created for them who wants to create Cuckoo Sandbox in their envir
   *   sudo iptables -P FORWARD DROP
   *   sudo iptables -A FORWARD -m state --state RELATED,ESTABLISHED -j ACCEPT
   *   sudo iptables -A FORWARD -s 192.168.56.0/24 -j ACCEPT
-  *   cuckoo rooter --sudo --group opensecure
+  *   cuckoo rooter --sudo --group blackperl
   *   cuckoo web --host 127.0.0.1 --port 8080
 * For the detailed installation, please checkout the video tutorial here- 
